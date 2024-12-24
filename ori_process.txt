@@ -1,0 +1,153 @@
+Indices of 100 sampled data...
+[137, 582, 782, 64, 261, 120, 507, 779, 460, 483, 667, 388, 214, 96, 499, 29, 399, 443, 622, 780, 2, 712, 456, 272, 738, 234, 605, 104, 325, 31, 22, 26, 665, 554, 9, 390, 702, 221, 432, 743, 784, 540, 227, 448, 793, 566, 238, 353, 236, 693, 224, 470, 296, 769, 426, 569, 657, 102, 190, 644, 303, 123, 340, 728, 512, 761, 519, 686, 194, 310, 290, 601, 511, 517, 402, 603, 35, 491, 248, 413, 424, 680, 177, 375, 561, 690, 383, 88, 449, 679, 520, 110, 167, 533, 725, 379, 501, 30, 480, 44]
+Making model...
+Load the model from ../pretrained_model/edsr_baseline_x4.pt
+[16/100] [bit:32.00] 0.0+1.2s
+[32/100] [bit:32.00] 0.0+1.7s
+[48/100] [bit:32.00] 0.0+1.9s
+[64/100] [bit:32.00] 0.0+2.0s
+[80/100] [bit:32.00] 0.0+2.2s
+[96/100] [bit:32.00] 0.0+2.3s
+[112/100] [bit:32.00] 0.0+2.4s
+Calibration done!
+image-lower:9.391, image-upper:47.106
+[1, -1, 0, -1, 0, -1, 0, -1, 0, -1, 0, -1, 0, -1, 0, -1, 0, -1, 0, -1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1]
+0.0
+Epoch Running Time is: 0:00:02.659072
+
+[Epoch 1] Update param _w Learning rate for param: 1.00e-2
+[20/100] L_pix: 0.544 L_skt: 0.709 L_bit: 5.000 [bit:6.00] 2.4+0.8s
+[40/100] L_pix: 0.552 L_skt: 0.781 L_bit: 5.000 [bit:5.50] 1.2+0.0s
+[60/100] L_pix: 0.559 L_skt: 0.753 L_bit: 5.833 [bit:5.50] 1.2+0.0s
+[80/100] L_pix: 0.573 L_skt: 0.730 L_bit: 5.000 [bit:6.00] 1.1+0.0s
+[100/100] L_pix: 0.567 L_skt: 0.745 L_bit: 5.000 [bit:6.00] 1.2+0.0s
+Epoch Running Time is: 0:00:08.007151
+
+Evaluation:
+Parameters: 1517.725K
+Model Size: 632.989K
+100%|█████████████████████████████████████████████| 5/5 [00:01<00:00, 4.39it/s]
+[Set5 x4] PSNR: 32.044 SSIM: 0.8914 Bit: 6.20 (Best: 32.044 @epoch 1)
+
+[Epoch 2] Update param _a Learning rate for param: 1.00e-2
+[20/100] L_pix: 0.541 L_skt: 0.707 L_bit: 5.000 [bit:6.00] 1.2+0.8s
+[40/100] L_pix: 0.550 L_skt: 0.779 L_bit: 5.000 [bit:5.50] 1.1+0.0s
+[60/100] L_pix: 0.557 L_skt: 0.752 L_bit: 5.833 [bit:5.50] 1.1+0.0s
+[80/100] L_pix: 0.571 L_skt: 0.729 L_bit: 5.000 [bit:6.00] 1.1+0.0s
+[100/100] L_pix: 0.565 L_skt: 0.744 L_bit: 5.000 [bit:6.00] 1.0+0.0s
+Epoch Running Time is: 0:00:06.386751
+
+Evaluation:
+100%|█████████████████████████████████████████████| 5/5 [00:01<00:00, 4.45it/s]
+[Set5 x4] PSNR: 32.066 SSIM: 0.8918 Bit: 6.20 (Best: 32.066 @epoch 2)
+
+[Epoch 3] Update param measure Learning rate for param: 1.00e-2
+[20/100] L_pix: 0.539 L_skt: 0.710 L_bit: 5.000 [bit:6.00] 1.1+0.8s
+[40/100] L_pix: 0.550 L_skt: 0.781 L_bit: 5.000 [bit:5.50] 1.1+0.0s
+[60/100] L_pix: 0.557 L_skt: 0.753 L_bit: 5.833 [bit:5.50] 1.2+0.0s
+[80/100] L_pix: 0.580 L_skt: 0.737 L_bit: 5.000 [bit:6.00] 1.1+0.0s
+[100/100] L_pix: 0.585 L_skt: 0.769 L_bit: 4.000 [bit:6.00] 1.0+0.0s
+Epoch Running Time is: 0:00:06.418837
+
+Evaluation:
+100%|█████████████████████████████████████████████| 5/5 [00:01<00:00, 4.49it/s]
+[Set5 x4] PSNR: 32.066 SSIM: 0.8918 Bit: 6.20 (Best: 32.066 @epoch 2)
+
+[Epoch 4] Update param _w Learning rate for param: 9.00e-3
+[20/100] L_pix: 0.562 L_skt: 0.716 L_bit: 2.500 [bit:6.00] 1.2+0.8s
+[40/100] L_pix: 0.566 L_skt: 0.801 L_bit: 3.750 [bit:5.50] 1.2+0.0s
+[60/100] L_pix: 0.580 L_skt: 0.789 L_bit: 4.167 [bit:5.50] 1.2+0.0s
+[80/100] L_pix: 0.600 L_skt: 0.772 L_bit: 3.750 [bit:6.00] 1.2+0.0s
+[100/100] L_pix: 0.601 L_skt: 0.798 L_bit: 3.000 [bit:6.00] 1.1+0.0s
+Epoch Running Time is: 0:00:06.769310
+
+Evaluation:
+100%|█████████████████████████████████████████████| 5/5 [00:01<00:00, 4.26it/s]
+[Set5 x4] PSNR: 32.079 SSIM: 0.8917 Bit: 6.20 (Best: 32.079 @epoch 4)
+
+[Epoch 5] Update param _a Learning rate for param: 9.00e-3
+[20/100] L_pix: 0.563 L_skt: 0.715 L_bit: 2.500 [bit:6.00] 1.1+0.8s
+[40/100] L_pix: 0.569 L_skt: 0.802 L_bit: 3.750 [bit:5.50] 1.1+0.0s
+[60/100] L_pix: 0.581 L_skt: 0.790 L_bit: 4.167 [bit:5.50] 1.1+0.0s
+[80/100] L_pix: 0.603 L_skt: 0.772 L_bit: 3.750 [bit:6.00] 1.1+0.0s
+[100/100] L_pix: 0.603 L_skt: 0.799 L_bit: 3.000 [bit:6.00] 1.1+0.0s
+Epoch Running Time is: 0:00:06.307334
+
+Evaluation:
+100%|█████████████████████████████████████████████| 5/5 [00:01<00:00, 4.45it/s]
+[Set5 x4] PSNR: 32.060 SSIM: 0.8915 Bit: 6.20 (Best: 32.079 @epoch 4)
+
+[Epoch 6] Update param measure Learning rate for param: 9.00e-3
+[20/100] L_pix: 0.573 L_skt: 0.718 L_bit: 2.500 [bit:5.78] 1.1+0.8s
+[40/100] L_pix: 0.711 L_skt: 0.868 L_bit: 2.188 [bit:4.97] 1.1+0.0s
+[60/100] L_pix: 0.803 L_skt: 0.937 L_bit: 1.458 [bit:4.84] 1.1+0.0s
+[80/100] L_pix: 0.883 L_skt: 0.990 L_bit: 1.094 [bit:5.38] 1.1+0.0s
+[100/100] L_pix: 0.906 L_skt: 1.035 L_bit: 0.875 [bit:5.41] 1.0+0.0s
+Epoch Running Time is: 0:00:06.404442
+
+Evaluation:
+100%|█████████████████████████████████████████████| 5/5 [00:01<00:00, 4.31it/s]
+[Set5 x4] PSNR: 31.988 SSIM: 0.8897 Bit: 5.61 (Best: 32.079 @epoch 4)
+
+[Epoch 7] Update param _w Learning rate for param: 8.10e-3
+[20/100] L_pix: 0.884 L_skt: 0.988 L_bit: 0.000 [bit:5.41] 1.2+0.9s
+[40/100] L_pix: 0.938 L_skt: 1.102 L_bit: 0.000 [bit:4.91] 1.2+0.0s
+[60/100] L_pix: 0.953 L_skt: 1.081 L_bit: 0.000 [bit:4.91] 1.3+0.0s
+[80/100] L_pix: 0.973 L_skt: 1.057 L_bit: 0.000 [bit:5.41] 1.3+0.0s
+[100/100] L_pix: 0.977 L_skt: 1.084 L_bit: 0.000 [bit:5.41] 1.2+0.0s
+Epoch Running Time is: 0:00:07.070475
+
+Evaluation:
+100%|█████████████████████████████████████████████| 5/5 [00:01<00:00, 4.22it/s]
+[Set5 x4] PSNR: 32.010 SSIM: 0.8898 Bit: 5.61 (Best: 32.079 @epoch 4)
+
+[Epoch 8] Update param _a Learning rate for param: 8.10e-3
+[20/100] L_pix: 0.883 L_skt: 0.989 L_bit: 0.000 [bit:5.41] 1.2+0.9s
+[40/100] L_pix: 0.935 L_skt: 1.102 L_bit: 0.000 [bit:4.91] 1.1+0.0s
+[60/100] L_pix: 0.950 L_skt: 1.081 L_bit: 0.000 [bit:4.91] 1.1+0.0s
+[80/100] L_pix: 0.969 L_skt: 1.057 L_bit: 0.000 [bit:5.41] 1.1+0.0s
+[100/100] L_pix: 0.974 L_skt: 1.082 L_bit: 0.000 [bit:5.41] 1.2+0.0s
+Epoch Running Time is: 0:00:06.687454
+
+Evaluation:
+100%|█████████████████████████████████████████████| 5/5 [00:01<00:00, 4.14it/s]
+[Set5 x4] PSNR: 32.029 SSIM: 0.8901 Bit: 5.61 (Best: 32.079 @epoch 4)
+
+[Epoch 9] Update param measure Learning rate for param: 8.10e-3
+[20/100] L_pix: 0.817 L_skt: 0.986 L_bit: 0.000 [bit:5.44] 1.1+0.9s
+[40/100] L_pix: 0.829 L_skt: 1.077 L_bit: 0.000 [bit:5.00] 1.1+0.0s
+[60/100] L_pix: 0.835 L_skt: 1.047 L_bit: 0.104 [bit:4.94] 1.1+0.0s
+[80/100] L_pix: 0.859 L_skt: 1.031 L_bit: 0.078 [bit:5.44] 1.1+0.0s
+[100/100] L_pix: 0.858 L_skt: 1.056 L_bit: 0.062 [bit:5.47] 1.1+0.0s
+Epoch Running Time is: 0:00:06.498227
+
+Evaluation:
+100%|█████████████████████████████████████████████| 5/5 [00:01<00:00, 4.29it/s]
+[Set5 x4] PSNR: 32.052 SSIM: 0.8908 Bit: 5.67 (Best: 32.079 @epoch 4)
+
+[Epoch 10] Update param _w Learning rate for param: 7.29e-3
+[20/100] L_pix: 0.777 L_skt: 0.927 L_bit: 0.000 [bit:5.47] 1.1+0.8s
+[40/100] L_pix: 0.815 L_skt: 1.047 L_bit: 0.000 [bit:4.97] 1.1+0.0s
+[60/100] L_pix: 0.830 L_skt: 1.030 L_bit: 0.000 [bit:4.97] 1.2+0.0s
+[80/100] L_pix: 0.851 L_skt: 1.004 L_bit: 0.000 [bit:5.47] 1.3+0.0s
+[100/100] L_pix: 0.852 L_skt: 1.036 L_bit: 0.000 [bit:5.47] 1.2+0.0s
+Epoch Running Time is: 0:00:06.946953
+
+Evaluation:
+100%|█████████████████████████████████████████████| 5/5 [00:01<00:00, 4.34it/s]
+[Set5 x4] PSNR: 32.037 SSIM: 0.8908 Bit: 5.67 (Best: 32.079 @epoch 4)
+Total Running Time is: 0:01:27.475690
+
+-----------------------------------------------------------
+Making model...
+
+Evaluation:
+Parameters: 1517.725K
+Model Size: 632.989K
+100%|█████████████████████████████████████████| 100/100 [00:20<00:00,  4.98it/s]
+[Urban100 x4]   PSNR: 9.581      SSIM: 0.0110   Bit: 5.00       (Best: 9.581 @epoch 1)
+100%|█████████████████████████████████████████| 100/100 [00:53<00:00,  1.86it/s]
+[test2k x4]     PSNR: 9.834      SSIM: 0.0128   Bit: 5.00       (Best: 9.834 @epoch 1)
+100%|█████████████████████████████████████████| 100/100 [03:37<00:00,  2.18s/it]
+[test4k x4]     PSNR: 9.644      SSIM: 0.0131   Bit: 5.00       (Best: 9.644 @epoch 1)
+Total Running Time is: 0:04:56.557320
